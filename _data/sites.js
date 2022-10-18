@@ -51,6 +51,7 @@ module.exports = async function () {
         thumbnail: thumbnailStats,
         notes: fields.Notes,
         date: fields.Created,
+        experience: fields.Experience,
       }
     })
   )
